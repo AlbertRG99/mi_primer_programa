@@ -1,19 +1,16 @@
 """
 Crea un programa que calcule la media de los elementos de la lista de números introducida por el usuario (media = suma de todos los numeros / numero de numeros )
 """
-# Programa para demostrar (MEDIA ARITMÉTICA) mean()
-# Función para el módulo STATICS
+numeros_media= [11, 21, 3, 42, 3, 2]
 
-# Importar módulo STATICS
-import statistics
+cuantos_numeros=len(numeros_media)
 
-# Lista de numeros enteros positivos
-lista_usuario = []
+todos_numeros=0
 
-while lista_usuario != "00"
-    lista_usuario = input("Introduce los números: (Escribe '00' para finalizar)")
+for e in numeros_media:
 
-x = statistics.mean(lista_usuario)
+    todos_numeros+=e
 
-# Imprimiendo la media
-print("Mean is :", x)
+resultado = todos_numeros / cuantos_numeros
+
+print("La media de {} es {}".format(numeros_media,resultado))
