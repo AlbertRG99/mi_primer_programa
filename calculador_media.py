@@ -1,5 +1,5 @@
 """
-Crea un programa que calcule la media de los elementos de la lista de números introducida por el usuario (media = suma de todos los numeros / numero de numeros )
+Crea un programa que calcule la media de los elementos de la lista de números (media = suma de todos los numeros / numero de numeros )
 """
 numeros_media= [11, 21, 3, 42, 3, 2]
 
