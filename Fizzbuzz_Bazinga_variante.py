@@ -16,9 +16,10 @@ for indice in range(len(numeros)):
         if numero % 3 == 0:
             numeros[indice] = "Fizz"           #Le añado el Fizz a la variable numeros[indice]#
 
-        if numero % 5 == 0:                     #Le añado el Buzz a la variable numeros[indice]#
+        if numero % 5 == 0:                    #Le añado el Buzz a la variable numeros[indice]#
             numeros[indice] = "Buzz"
 
         if numero % 3 == 0 and numero % 5 == 0:
             numeros[indice] = "Bazinga"
+
 print(numeros)
