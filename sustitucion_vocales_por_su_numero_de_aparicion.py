@@ -9,6 +9,6 @@ contador = 0
 for letra in frase_usuario:
     if letra in vocales:
         contador += 1
-        frase_usuario = frase_usuario.replace(letra, str(contador))
+        frase_usuario = frase_usuario.replace(letra, str(contador), 1)
 
 print(frase_usuario)
