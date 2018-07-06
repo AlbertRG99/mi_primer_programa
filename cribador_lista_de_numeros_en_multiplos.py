@@ -11,15 +11,20 @@ multiplos_cinco = [10, 70, 30, 60, 55]
 multiplos_siete = [70]
 """
 
+lista = []
+lista_usuario = []
 multiplos_dos = []
 multiplos_tres = []
 multiplos_cinco = []
 multiplos_siete = []
 
+while lista_usuario != "FIN":
+    lista_usuario = input("Escribe los numeros que quieres cribar y pulsa 'FIN' para continuar: ")
+    lista.append(lista_usuario)
 
-lista_usuario = input("Introduce una lista de números y los separaré en múltiplos de 2, 3, 5 y 7 (Escribe 'FIN' para iniciar): ")
+lista.remove("FIN")
 
-for numero in lista_usuario:
+for numero in lista:
     if int(numero) % 2 == 0:
         multiplos_dos.append(int(numero))
     if int(numero) % 3 == 0:
